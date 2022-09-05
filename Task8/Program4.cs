@@ -1,4 +1,7 @@
-﻿//Производим инициализацию числа
+﻿//Задача 8: Напишите программу, которая на вход принимает число (N),
+// а на выходе показывает все чётные числа от 1 до N.
+
+//Производим инициализацию числа
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 
@@ -22,4 +25,3 @@ while (startNumber < number - 1)
     startNumber = startNumber + 2;
     Console.WriteLine(startNumber);
 }
-
